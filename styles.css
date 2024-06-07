@@ -1,0 +1,81 @@
+:root {
+    color-scheme: dark;
+  }
+  
+  body {
+    background-color: #2b2b2b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .watch {
+    background-color: #772929;
+    border-radius: 5px;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .timer {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .controls button {
+    appearance: none;
+    background-color: #5b5b5b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #fff;
+    color: #801010;
+  }
+  
+  .controls button:disabled {
+    background-color: #ccc;
+    color: #fff;
+    cursor: not-allowed;
+  }
+  
+  .laps {
+    margin-top: 2rem;
+  }
+  
+  .laps ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .laps li {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .laps li:last-child {
+    border-bottom: none;
+  }
